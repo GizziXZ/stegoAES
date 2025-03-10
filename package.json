@@ -1,0 +1,11 @@
+{
+  "name": "stegoaes",
+  "version": "1.0.0",
+  "description": "Steganography with AES encryption",
+  "main": "index.js",
+  "bin": "./index.js",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "pngjs": "^7.0.0"
+  }
+}
