@@ -1,7 +1,7 @@
 const fs = require('fs');
 const crypto = require('crypto');
 const { PNG } = require('pngjs');
-const delimiter = '1111111100000000';
+const delimiter = '1111111100000000'; // delimiter to indicate the end of the secret
 
 function hideSecretInFile(secret, file, options) {
     let secretBinary = toBinary(secret);
@@ -42,6 +42,8 @@ function hideSecretInFile(secret, file, options) {
                 console.log('Secret hidden in file');
             });
         });
+    } else {
+        console.log('Unsupported file type');
     }
 }
 
@@ -75,6 +77,8 @@ function extractSecretFromFile(file, password) {
                 }
             }
         });
+    } else {
+        console.log('Unsupported file type');
     }
 }
 
