@@ -13,7 +13,7 @@ A command-line interface (CLI) tool for performing steganography operations, suc
 To install the Steganography CLI tool, clone the repository and install the dependencies:
 
 ```bash
-npm install stegoaes
+npm i -g stegoaes
 ```
 
 ## Usage
