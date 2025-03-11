@@ -35,3 +35,9 @@ To extract a hidden message from an image, use the following command:
 ```bash
 stegoaes -p <optional password> <file>
 ```
+
+# Steganography
+Original image:
+### ![Example Image](orange-cat-looking-at-camera.png)
+Image with a secret message:
+### ![Secret message Image](stego.png)
