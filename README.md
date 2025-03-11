@@ -6,6 +6,7 @@ A command-line interface (CLI) tool for performing steganography operations, suc
 
 - Hide encrypted messages within images
 - Extract hidden messages from images
+- Hide files inside images
 - As of now, it only supports PNG file types
 
 ## Installation
