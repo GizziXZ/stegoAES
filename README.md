@@ -28,6 +28,16 @@ stegoaes -s <your message> -p <optional password> <file> -o <optional output fil
 
 Your secret will automatically be encrypted with AES256 if a password is provided
 
+### Hiding a File
+
+To hide a file within an image, use the following command:
+
+```bash
+stegoaes -f <file to hide> -p <optional password> <file>
+```
+
+The host file must be atleast 8 times bigger than the file you are going to hide
+
 ### Extracting a Message
 
 To extract a hidden message from an image, use the following command:
@@ -35,6 +45,8 @@ To extract a hidden message from an image, use the following command:
 ```bash
 stegoaes -p <optional password> <file>
 ```
+
+If there's a file hidden inside, it will automatically extract
 
 # Steganography
 Original image:
