@@ -10,7 +10,7 @@ function hideSecretInFile(secret, file, options) {
     const fileSize = fs.statSync(file).size; // file size in bytes
     const secretSize = secretBinary.length / 8; // secret size in bytes
     
-    if (secretSize > fileSize) {
+    if (secretSize * 8 > fileSize) {
         console.error('Secret is too large to hide in the file');
         return;
     }
