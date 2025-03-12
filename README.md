@@ -11,7 +11,7 @@ A command-line interface (CLI) tool for performing steganography operations, suc
 
 ## Installation
 
-To install the Steganography CLI tool, clone the repository and install the dependencies:
+To install the Steganography CLI tool, run this command:
 
 ```bash
 npm i -g stegoaes
