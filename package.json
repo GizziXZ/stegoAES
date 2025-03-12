@@ -7,5 +7,9 @@
   "dependencies": {
     "commander": "^13.1.0",
     "pngjs": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GizziXZ/stegoAES.git"
   }
 }
